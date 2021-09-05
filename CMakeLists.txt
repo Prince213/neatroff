@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.0)
+project(neatroff_make NONE)
+add_subdirectory(neatroff)
+add_subdirectory(neatpost)
+add_subdirectory(neatmkfn)
+add_subdirectory(neateqn)
+add_subdirectory(neatrefer)
+add_subdirectory(troff)
+
+add_executable(soin neatroff_make/soin/soin.c)
+add_executable(shape neatroff_make/shape/shape.c neatroff_make/shape/uc.c neatroff_make/shape/util.c)
+install(TARGETS soin shape)
