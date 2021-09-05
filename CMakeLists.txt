@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(neatroff_make NONE)
+project(neatroff_make C)
 add_subdirectory(neatroff)
 add_subdirectory(neatpost)
 add_subdirectory(neatmkfn)
