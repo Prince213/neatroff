@@ -1,0 +1,21 @@
+[submodule "neatroff"]
+	path = neatroff
+	url = https://github.com/Prince213/neatroff_neatroff.git
+[submodule "neatpost"]
+	path = neatpost
+	url = https://github.com/Prince213/neatroff_neatpost.git
+[submodule "neatmkfn"]
+	path = neatmkfn
+	url = https://github.com/Prince213/neatroff_neatmkfn.git
+[submodule "neateqn"]
+	path = neateqn
+	url = https://github.com/Prince213/neatroff_neateqn.git
+[submodule "neatrefer"]
+	path = neatrefer
+	url = https://github.com/Prince213/neatroff_neatrefer.git
+[submodule "troff"]
+	path = troff
+	url = https://github.com/Prince213/neatroff_troff.git
+[submodule "neatroff_make"]
+	path = neatroff_make
+	url = https://github.com/Prince213/neatroff_make.git
